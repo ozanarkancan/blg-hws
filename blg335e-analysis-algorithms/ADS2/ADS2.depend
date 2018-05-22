@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1383126143 source:c:\users\ozan\desktop\ads2\heap.cpp
+	"heap.h"
+	<iostream>
+
+1383126085 c:\users\ozan\desktop\ads2\heap.h
+
+1383074244 c:\users\ozan\desktop\ads2\node.h
+
+1383136721 source:c:\users\ozan\desktop\ads2\main.cpp
+	<iostream>
+	"Heap.h"
+	"Simulator.h"
+	<stdlib.h>
+
+1383125825 c:\users\ozan\desktop\ads2\simulator.h
+
+1383247203 source:c:\users\ozan\desktop\ads2\simulator.cpp
+	"simulator.h"
+	<time.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	"Heap.h"
+

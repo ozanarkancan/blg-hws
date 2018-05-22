@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1382079737 source:c:\users\ozan\desktop\ads1\algorithmexecuter.cpp
+	"AlgorithmExecuter.h"
+	<iostream>
+
+1381824663 c:\users\ozan\desktop\ads1\algorithmexecuter.h
+	"Location.h"
+	<vector>
+
+1381824677 source:c:\users\ozan\desktop\ads1\location.cpp
+	"Location.h"
+	<cmath>
+
+1381824689 c:\users\ozan\desktop\ads1\location.h
+	<string>
+
+1382079458 source:c:\users\ozan\desktop\ads1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<math.h>
+	<stdlib.h>
+	"Location.h"
+	<deque>
+	<time.h>
+	"AlgorithmExecuter.h"
+

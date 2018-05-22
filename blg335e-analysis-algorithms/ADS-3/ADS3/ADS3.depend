@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1387685463 source:c:\users\ozan\desktop\ads-3\ads3\hashtable.cpp
+	"HashTable.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1387649125 c:\users\ozan\desktop\ads-3\ads3\hashtable.h
+
+1387646235 source:c:\users\ozan\desktop\ads-3\ads3\main.cpp
+	<iostream>
+	"HashTable.h"
+	"HashController.h"
+
+1387685451 source:c:\users\ozan\desktop\ads-3\ads3\hashcontroller.cpp
+	"HashController.h"
+	<iostream>
+	<fstream>
+
+1387685710 c:\users\ozan\desktop\ads-3\ads3\hashcontroller.h
+	<string>
+	"HashTable.h"
+
