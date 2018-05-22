@@ -1,0 +1,11 @@
+23779064806	34	4	User1	'04.09.1991'	Sisli	Bachelor	ComputerScience	FALSE
+23779064808	16	4	User2	'04.02.1990'	Vadi	Bachelor	ComputerScience	TRUE
+14759064806	34	4	User3	'08.05.1985'	Sisli	Bachelor	ComputerScience	TRUE
+23974264808	34	4	User4	'07.04.1970'	Vadi	HighSchoolTerk	Programmer	FALSE
+87412064806	34	4	User5	'04.02.1990'	Ayazaga	Bachelor	Hacker	TRUE
+53269764808	6	4	User6	'06.03.1965'	Altindag	Bachelor	LoremIpsum	FALSE
+18632256971	8	4	User7	'04.09.1969'	Lorem	Bachelor	LoremIpsum	FALSE
+98653211232	21	4	User8	'04.02.1975'	Ipsum	Bachelor	LoremIpsum	TRUE
+53269798658	75	5	User9	'06.03.1965'	Altindag	Bachelor	LoremIpsum	TRUE
+47832256971	60	5	User10	'04.09.1969'	Lorem	Bachelor	LoremIpsum	TRUE
+91235861232	25	5	User11	'04.02.1975'	Ipsum	Bachelor	LoremIpsum	TRUE

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <wicket:head> 
+            <title>Update Admin</title>
+        </wicket:head>
+    </head>
+    <body>
+        <wicket:extend>
+
+            <div id="edit_container">
+                <form action="#" wicket:id="admin_update_form">
+                    <table align="center">
+                        <tr>
+                            <th>Username </th>
+                            <td><input type="text" wicket:id="username" placeholder="Enter Username" autofocus="autofocus" /></td>
+                            <td><input type="submit" wicket:id="get_admin_info" value="GET" class="button" /></td>
+                        </tr>
+                        <tr>
+                            <th>New Password </th>
+                            <td><input type="text" wicket:id="password" placeholder="Enter Password" /></td>
+                        </tr>
+                        <tr>
+                            <th>User Type </th>
+                            <td><input type="text" wicket:id="user_type" placeholder="Enter User Type" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" wicket:id="update_admin" value="UPDATE" class="button" /></td>
+                        </tr>
+                    </table>             
+                </form>       
+            </div>
+
+            <div id="feedbackPanel"><span wicket:id="update_admin_feedback" /></div>
+
+        </wicket:extend>
+    </body>
+</html>

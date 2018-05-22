@@ -1,0 +1,11 @@
+1 -> cost: 60109 word: 9495 time: 1.60009 milliseconds
+2 -> cost: 6002 word: 1067 time: 0.180011 milliseconds 
+3 -> cost: 293216 word: 27691 time: 4.69927 milliseconds
+4 -> cost: 574087 word: 47913 time: 8.18647 milliseconds
+5 -> cost: 2660 word: 259 time: 0.045002 milliseconds
+
+1 -> cost: 10980 word: 9495 time: 3496.2 milliseconds
+2 -> cost: 2430 word: 1067 time: 75.004 milliseconds
+3 -> cost: 40143 word: 27691 time: 26994.5 milliseconds
+4 -> cost: 78437 word: 47913 time: 77778.4 milliseconds
+5 -> cost: 890 word: 259 time: 14.001 milliseconds

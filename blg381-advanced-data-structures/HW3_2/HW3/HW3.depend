@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1312918459 source:c:\users\ozan\desktop\ads\hw3\node.cpp
+	"node.h"
+
+1325673453 c:\users\ozan\desktop\ads\hw3\node.h
+	<iostream>
+	<deque>
+	<string>
+
+1325608873 source:c:\users\ozan\desktop\ads\hw3\tree.cpp
+	"tree.h"
+
+1325673453 c:\users\ozan\desktop\ads\hw3\tree.h
+	"node.h"
+
+1325619004 source:c:\users\ozan\desktop\ads\hw3\main.cpp
+	<iostream>
+	<fstream>
+	<deque>
+	<ctype.h>
+	"tree.h"
+	<sys/time.h>
+	<cstdlib>
+	<unistd.h>
+	<cstdio>
+

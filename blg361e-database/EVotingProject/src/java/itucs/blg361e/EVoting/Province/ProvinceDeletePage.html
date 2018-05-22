@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>ProvinceDeletePage</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <wicket:extend> 
+            <div id="edit_container">
+                <h4>Province Delete Page</h4>
+                <form action="#" wicket:id="province_delete_form">
+                    <table align="center">
+                        <tr>
+                            <th>Please enter the id :</th>
+                            <td><input wicket:id="id" type="text" placeholder="Enter ID"  autofocus="autofocus" size="8" maxlength="2"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> 
+                                <input value="DELETE" name="save" wicket:id="delete_province" type="submit" class="button"/>
+                            </td>                       
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div id="feedbackPanel"><span wicket:id="delete_province_feedback"/></div>
+        </wicket:extend>
+    </body>
+</html>

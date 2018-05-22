@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <wicket:head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <title>Add Elector Page</title>
+            <wicket:link>
+                <script type="text/javascript" src="../js/DateTimePicker/datetimepicker_css.js"></script>
+            </wicket:link>
+        </wicket:head>
+    </head>
+    <body>
+        <wicket:extend> 
+            <div id="edit_container">
+                <h4>Elector Add Page</h4>
+                <form action="#" wicket:id="elector_add_form">
+                    <table align="center">
+
+                        <tr>
+                            <th>Tc:</th>
+                            <td><input wicket:id="TCnumber" placeholder="Enter TCnumber" type="text" size="11"  maxlength="11" autofocus="autofocus" /></td>
+
+                        </tr>
+                        <tr>
+                            <th>Province ID:</th>
+                            <td><input wicket:id="provinceID" placeholder="Enter Province ID" type="text" size="10" maxlength="2"/></td>
+                        </tr>
+                        <tr>
+                            <th>Name:</th>
+                            <td><input wicket:id="name" placeholder="Enter Name" type="text"/></td>
+                        </tr>
+                        <tr>
+                            <th>Birthday:</th>
+                            <td><input id="birth" wicket:id="birthday" placeholder="Enter Birthday" type="text"/></td>
+                            <wicket:link>
+                                <th><img src="../js/DateTimePicker/images2/cal.gif" onclick="javascript:NewCssCal('birth', 'ddMMyyyy')" style="cursor:pointer"/></th>
+                            </wicket:link>
+                        </tr>
+                        <tr>
+                            <th>Profession:</th>
+                            <td><input wicket:id="profession" placeholder="Enter Profession" type="text"/></td>
+                        </tr>
+                        <tr>
+                            <th>Education:</th>
+                            <td><input wicket:id="education" placeholder="Enter Education" type="text"/></td>
+                        </tr>
+                        <tr>
+                            <th>Address:</th>
+                            <td><input wicket:id="address" placeholder="Enter Address" type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input value="ADD" class="button" wicket:id="Save" name="save" type="submit"/></td>
+                        </tr>
+                    </table>
+
+                </form>
+            </div>
+            <div id="feedbackPanel"><span wicket:id="add_elector_feedback"/></div>
+        </wicket:extend>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>ElectionEditorPage$TabPanel2</title>
+    </head>
+    <body>
+        <wicket:panel>
+            <div id="edit_container">
+                <div wicket:id="containerForDeleteAndUpdate">
+                    <form action="#" wicket:id="deleteAndUpdateElectionForm">
+                        <div wicket:id="textArea">
+                            <table>
+                                <tr>
+                                    <th>Election ID:</th>
+                                    <td><input wicket:id="electionID" type="text" style="background:#eee none; color:#222;"/></td>
+                                </tr>
+                                <tr>
+                                    <th>Start Date of Election:</th>
+                                    <td><input id="datePicker1" wicket:id="startDateOfElection" type="text"/></td>
+                                    <wicket:link>
+                                        <th><img src="js/DateTimePicker/images2/cal.gif" onclick="javascript:NewCssCal('datePicker1', 'ddMMyyyy','dropdown',true,'24','','future')" style="cursor:pointer"/></th>
+                                    </wicket:link>
+                                </tr>
+                                <tr>
+                                    <th>Finish Date of Election:</th>
+                                    <td><input id="datePicker2" wicket:id="finishDateOfElection" type="text"/></td>
+                                    <wicket:link>
+                                        <th><img src="js/DateTimePicker/images2/cal.gif" onclick="javascript:NewCssCal('datePicker2', 'ddMMyyyy','dropdown',true,'24','','future')" style="cursor:pointer"/></th>
+                                    </wicket:link>
+                                </tr>
+                                <tr>
+                                    <th>Last Date of Adding Candidate:</th>
+                                    <td><input id="datePicker3" wicket:id="lastDateOfAddingCandidate" type="text"/></td>
+                                    <wicket:link>
+                                        <th><img src="js/DateTimePicker/images2/cal.gif" onclick="javascript:NewCssCal('datePicker3', 'ddMMyyyy','dropdown',true,'24','','future')" style="cursor:pointer"/></th>
+                                    </wicket:link>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input value="Delete" name="delete" type="submit" wicket:id="deleteButton" class="button"/>
+                                        <input value="Update" name="update" type="submit" wicket:id="updateButton" class="button"/>
+                                    </td>
+                                    <td>
+                                        <span wicket:id="elections">
+                                            <dh>Election </dh>
+                                            <select wicket:id="electionList">
+                                                <option>Elections</option>
+                                            </select>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="feedbackPanel"><span wicket:id="feedbackEditForm"/></div>
+                    </form>
+                </div>
+            </div>
+        </wicket:panel>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+
+    <body>
+        <wicket:extend> 
+            <h4>Party Page</h4>
+            <div id="party_display_container" style="font-size: 16pt">
+                <table align="center">
+                    <tr wicket:id="party_list">
+
+                        <td>
+                            <a href="#" wicket:id="party_link">
+                                <span wicket:id="title"></span>
+                                (<span wicket:id="year"></span>)
+                                <span wicket:id="partyleader"></span>
+                            </a>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </wicket:extend> 
+    </body>
+</html>

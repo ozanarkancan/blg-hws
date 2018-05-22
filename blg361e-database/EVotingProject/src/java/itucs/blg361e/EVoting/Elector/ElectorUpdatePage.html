@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <wicket:head> 
+            <title>Update Elector </title>
+            <wicket:link>
+                <script type="text/javascript" src="../js/DateTimePicker/datetimepicker_css.js"></script>
+            </wicket:link>
+        </wicket:head>
+    </head>
+    <body>
+        <wicket:extend> 
+            <h4>Elector Update Page</h4>
+            <form action="#" wicket:id="elector_update_form">
+                <table align="center">
+                    <tr>
+                        <th>TCnumber :</th>
+                        <td><input type="text" wicket:id="TCnumber" placeholder="Enter TCnumber" autofocus="autofocus" /></td>
+                        <td><input type="submit" class="button" wicket:id="get_elector_info" value="GET" /></td>
+                    </tr>
+                    <tr>
+                        <th>Province Id :</th>
+                        <td><input wicket:id="provinceID" type="text" size="2" maxlength="2"/></td>
+                    </tr>
+                    <tr>
+                        <th>Name :</th>
+                        <td><input wicket:id="name" type="text"/></td>
+                    </tr>
+
+                    <tr>
+                        <th>Birthday :</th>
+                        <td><input id="birth" wicket:id="birthday" type="text"/></td>
+                        <wicket:link>
+                            <th><img src="../js/DateTimePicker/images2/cal.gif" onclick="javascript:NewCssCal('birth', 'ddMMyyyy')" style="cursor:pointer"/></th>
+                        </wicket:link>
+                    </tr>
+                    <tr>
+                        <th>Profession :</th>
+                        <td><input wicket:id="profession" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <th>Education :</th>
+                        <td><input wicket:id="education" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <th>Address :</th>
+                        <td><input wicket:id="address" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" class="button" wicket:id="update_elector" value="UPDATE" /></td>
+                    </tr>
+                </table>
+            </form>
+            <div id="feedbackPanel"><span wicket:id="update_elector_feedback" /></div>
+        </wicket:extend>
+    </body>
+</html>

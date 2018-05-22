@@ -1,0 +1,3 @@
+all: aiBlocks
+aiBlocks:
+	javac -d bin -sourcepath /code/*.java

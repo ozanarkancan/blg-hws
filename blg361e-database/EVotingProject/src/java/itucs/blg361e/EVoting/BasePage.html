@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  
+      xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd"  
+      xml:lang="en"  
+      lang="en"> 
+    <head> 
+        <wicket:head> 
+            <wicket:link> 
+                <link rel="stylesheet" type="text/css" href="style.css"/> 
+            </wicket:link> 
+        </wicket:head> 
+    </head> 
+    <body> 
+        <div id="header"><span wicket:id="date_time" class="datetime"></span>
+        <span wicket:id="electionLabel" class="datetime"></span></div>
+        <div id="navigation">
+            
+            <ul class="nav_links">
+                <li><a href="#" wicket:id="home_page">HOME</a></li>
+                <li><a href="#" wicket:id="party-page">PARTY</a></li>
+                <li><a href="#" wicket:id="candidate_page">CANDIDATE</a></li>
+                <li><a href="#" wicket:id="elector_page">ELECTOR</a></li>
+                <li><a href="#" wicket:id="voting_page">VOTE</a></li>
+                <li><a href="#" wicket:id="results_page">RESULTS</a></li>
+                <li><a href="#" wicket:id="admin_page">ADMIN PAGE</a>
+                    <a href="#" wicket:id="party_administrator">PARTY ADMIN</a></li>
+                <li><a href="#" wicket:id="login_page">LOGIN</a>
+                    <a href="#" wicket:id="logout">LOG OUT</a></li>                
+            </ul>
+            
+        </div>
+        <div id="content">
+            <wicket:child/>
+        </div>
+
+        <div id="footer">
+            <span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1);
+                  -webkit-transform: scaleX(-1); transform: scaleX(-1); display: inline-block;">&copy;
+            </span>
+            <span> Copyleft - 2012 DBMS E-Voting Project <a href="https://pikacode.com/ozanarkancan/group3/" target="_blank">Group 3</a>
+            </span>
+        </div>
+    </body> 
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  
+      xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd"  
+      xml:lang="en"  
+      lang="en"> 
+    <head> 
+        <wicket:head> 
+            <title>E-Voting | Homepage</title> 
+        </wicket:head> 
+    </head> 
+    <body> 
+        <wicket:extend>
+            <div id="left-content">
+                <div id="announcements">
+                    <span>ANNOUNCEMENTS</span>
+                    <marquee behaviour="scroll" direction="up" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
+                        <span wicket:id="election_info"></span>
+                    </marquee>
+                </div>
+
+                <ul class="links">
+                    <li style="margin-left: 14px"><a href="#" wicket:id="how_to_use_link">HOW TO USE</a></li>
+                </ul>
+            </div>
+
+            <div id="right-content">
+                <div id="guide_container">
+                    <img wicket:id="how_to_use" src="images/how-to-use.png" />
+                </div>
+
+                <a href="#" wicket:id="init_project" class="init_link">INIT PROJECT</a>
+            </div>
+        </wicket:extend>
+    </body> 
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <wicket:head> 
+            <title>Add Admin</title>
+        </wicket:head> 
+    </head>
+    <body>
+        <wicket:extend>
+            
+            <div id="edit_container">
+                <form action="#" wicket:id="admin_add_form">
+                    <table align="center">
+                        <tr>
+                            <th>Username </th>
+                            <td><input type="text" wicket:id="username" placeholder="Enter Username" autofocus="autofocus" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" wicket:id="add_admin" value="ADD" class="button" /></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div id="feedbackPanel"><span wicket:id="add_admin_feedback"/></div>
+
+        </wicket:extend>
+    </body>
+</html>

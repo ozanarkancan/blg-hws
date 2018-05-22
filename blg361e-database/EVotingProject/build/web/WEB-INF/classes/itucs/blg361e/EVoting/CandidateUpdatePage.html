@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <wicket:head> 
+            <title>Update Candidate </title>
+        </wicket:head>
+    </head>
+    <body>
+        <wicket:extend>
+            <h4>Candidate Update Page</h4>
+            <div id="edit_container">
+                <form action="#" wicket:id="canUpdateForm">
+                    <table align="center">
+                        <tr>
+                            <th>TC Number </th>
+                            <td><input type="text" wicket:id="TCnumber" placeholder="Enter TCnumber" autofocus="autofocus" size="11" maxlength="11" /></td>
+                            <td><input type="submit" wicket:id="getCanInfo" value="GET" class="button"/></td>
+                        </tr>    
+                        <tr>
+                            <th>Candidate Name </th>
+                            <td><input type="text" wicket:id="name" placeholder="Enter name" size="11" maxlength="80" /></td>
+                        </tr>
+                        <tr>
+                            <th>Province Id</th>
+                            <td><input type="text" wicket:id="provinceId" placeholder="Enter provinceId" size="2" maxlength="2" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            
+                            <td><input type="submit" wicket:id="updateCan" value="UPDATE" class="button" /></td>
+                        </tr>
+                    </table>             
+                </form>       
+            </div>
+            
+            <div id="feedbackPanel"><span wicket:id="updateCanFeedback" /></div>
+        </wicket:extend>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>PartyAdminDeletePage</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <wicket:extend>
+            <h4>Party Admin Delete Page</h4>
+            <div id="edit_container">
+                
+                <form action="#" wicket:id="partyadministrator_delete">
+                    <table>
+                        <tr>
+                            <th>Enter a username for deleting</th>
+                            <td><input wicket:id="userName" placeholder="User Name" type="text" maxlength="80" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input value="DELETE" name="DELETE" type="submit" class="button"/></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="feedbackPanel"><span wicket:id="delete_partyAdmin_feedback"/></div>
+        </wicket:extend>
+    </body>
+</html>
+

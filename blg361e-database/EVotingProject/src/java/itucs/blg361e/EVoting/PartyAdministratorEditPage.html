@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>PartyAdminEditPage</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <wicket:extend> 
+            <div id="edit_container">
+                <h4>Party Admin Edit Page</h4>
+                <form action="#" wicket:id="partyadmin_edit">
+                    <table>
+                        <tr>
+                            <th>User Name</th>
+                            <td><input wicket:id="userName" placeholder="User Name" type="text" maxlength="80" /></td>
+                        </tr>
+                        <tr>
+                            <th>Party Title</th>
+                            <td><input wicket:id="partyTitle" placeholder="Party Title" type="text" maxlength="80" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input value="ADD" name="ADD" type="submit" class="button"/></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="feedbackPanel"><span wicket:id="add_partyAdmin_feedback"/></div>
+        </wicket:extend>
+    </body>
+</html>

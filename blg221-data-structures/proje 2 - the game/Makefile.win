@@ -1,0 +1,33 @@
+# Project: Project2
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = Oyun.o Proje2.o $(RES)
+LINKOBJ  = Oyun.o Proje2.o $(RES)
+LIBS =  -L"D:/kurulumlar/Dev-Cpp/lib"  
+INCS =  -I"D:/kurulumlar/Dev-Cpp/include" 
+CXXINCS =  -I"D:/kurulumlar/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"D:/kurulumlar/Dev-Cpp/include/c++/3.4.2/backward"  -I"D:/kurulumlar/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"D:/kurulumlar/Dev-Cpp/include/c++/3.4.2"  -I"D:/kurulumlar/Dev-Cpp/include" 
+BIN  = Project2.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Project2.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Project2.exe" $(LIBS)
+
+Oyun.o: Oyun.cpp
+	$(CPP) -c Oyun.cpp -o Oyun.o $(CXXFLAGS)
+
+Proje2.o: Proje2.cpp
+	$(CPP) -c Proje2.cpp -o Proje2.o $(CXXFLAGS)

@@ -1,0 +1,157 @@
+# depslib dependency file v1.0
+1385899850 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\main.cpp
+	<iostream>
+	"ParseTable.h"
+
+1385885506 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\rule.cpp
+	"rule.h"
+
+1385885511 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\rule.h
+	<string>
+
+1385846723 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\gramer.cpp
+	"gramer.h"
+
+1385682360 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\gramer.h
+	<map>
+	<deque>
+	"Rule.h"
+
+1385899652 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\dfa.cpp
+	"dfa.h"
+	<iostream>
+
+1385889213 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\dfa.h
+	"Grammar.h"
+	"State.h"
+
+1385899513 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\state.cpp
+	"state.h"
+	"DFA.h"
+
+1385899499 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\state.h
+	<deque>
+	<string>
+	"Edge.h"
+	"Rule.h"
+
+1385677182 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\arc.h
+	"State.h"
+	<string>
+
+1385677821 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\edge.h
+	<string>
+
+1385677416 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\edge.cpp
+	"edge.h"
+
+1385899643 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\parsetable.cpp
+	"parsetable.h"
+	"Edge.h"
+	<iostream>
+	<algorithm>
+
+1385895026 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\parsetable.h
+	"Grammar.h"
+	"DFA.h"
+	"Cell.h"
+	"Rule.h"
+	<map>
+	<deque>
+
+1385885774 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\cell.cpp
+	"cell.h"
+
+1385886867 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\cell.h
+	<string>
+
+1385886798 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\grammar.h
+	<map>
+	<deque>
+	"Rule.h"
+
+1385886922 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 2\hw2\grammar.cpp
+	"grammar.h"
+
+1387686687 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\cell.cpp
+	"Cell.h"
+
+1385886867 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\cell.h
+	<string>
+
+1387686710 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\dfa.cpp
+	"DFA.h"
+	<iostream>
+
+1385889213 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\dfa.h
+	"Grammar.h"
+	"State.h"
+
+1387654620 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\grammar.h
+	<map>
+	<deque>
+	"Rule.h"
+
+1387654156 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\rule.h
+	<string>
+
+1385899499 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\state.h
+	<deque>
+	<string>
+	"Edge.h"
+	"Rule.h"
+
+1385677821 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\edge.h
+	<string>
+
+1385677416 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\edge.cpp
+	"edge.h"
+
+1387686725 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\grammar.cpp
+	"Grammar.h"
+
+1387717313 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\main.cpp
+	<iostream>
+	"ShiftReduceParser.h"
+
+1387653087 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\parsetable.h
+	"Grammar.h"
+	"DFA.h"
+	"Cell.h"
+	"Rule.h"
+	<map>
+	<deque>
+
+1387718506 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\parsetable.cpp
+	"ParseTable.h"
+	"Edge.h"
+	<iostream>
+	<algorithm>
+	<fstream>
+
+1387689934 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\rule.cpp
+	"Rule.h"
+
+1387686767 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\state.cpp
+	"State.h"
+	"DFA.h"
+
+1387686757 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\scanner.cpp
+	"Scanner.h"
+
+1387655063 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\scanner.h
+	<string>
+
+1387714518 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\shiftreduceparser.cpp
+	"ShiftReduceParser.h"
+	<iostream>
+	<stdlib.h>
+	"Cell.h"
+	"Scanner.h"
+
+1387654395 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 3\hw2\shiftreduceparser.h
+	"ParseTable.h"
+	"State.h"
+	<string>
+	<stack>
+

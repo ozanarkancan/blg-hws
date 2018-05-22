@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1382956722 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 1\hw1\main.cpp
+	<iostream>
+	"RecursiveParser.h"
+
+1384092769 c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 1\hw1\recursiveparser.h
+	<string>
+
+1382954163 source:c:\users\ozan\desktop\derleyici tasarýmý\ödevler\ödev 1\hw1\recursiveparser.cpp
+	"RecursiveParser.h"
+	<iostream>
+

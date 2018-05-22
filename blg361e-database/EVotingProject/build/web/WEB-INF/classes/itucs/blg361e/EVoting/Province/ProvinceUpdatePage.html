@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <wicket:head> 
+            <title>Update Province </title>
+        </wicket:head>
+    </head>
+    <body>
+        <wicket:extend> 
+            <div id="edit_container">
+                <h4>Province Update Page</h4>
+                <form action="#" wicket:id="province_update_form">
+                    <table align="center">
+                        <tr>
+                            <th>Enter ID :</th>
+                            <td><input wicket:id="id" type="text" placeholder="Enter ID"  size="8" maxlength="2" autofocus="autofocus"/></td>
+                            <td><input type="submit" wicket:id="get_province_info" class="button" value="GET" /></td>
+                        </tr>
+                        <tr>
+                            <th>New Name :</th>
+                            <td><input wicket:id="name"  placeholder="Enter Name" type="text"/></td>
+                        </tr>
+                        <tr>
+                            <th>New Quota :</th>
+                            <td><input wicket:id="quota" type="text" size="8    " placeholder="Enter Quota" maxlength="2"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" class="button" wicket:id="update_province" value="UPDATE" /></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="feedbackPanel"><span wicket:id="update_province_feedback" /></div>
+        </wicket:extend>
+    </body>
+</html>

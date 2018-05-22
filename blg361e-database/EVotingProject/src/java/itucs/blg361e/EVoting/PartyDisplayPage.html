@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <body>
+        <wicket:extend>
+
+            <div id="party_display_container" style="font-size: 16pt">
+                <h4 wicket:id="title" style="WORD-BREAK:BREAK-ALL"></h4>
+                <table>
+                    <tr>
+                        <th>Founded Year of Party:</th>
+                        <td wicket:id="year"></td>
+                    </tr>
+                        <td></td>
+                    <tr>
+                        <th>Name of Party Leader:</th>
+                        <td wicket:id="partyleader"></td>
+                    </tr>
+                        <td></td>
+                    <tr>
+                        <th>Election Id:</th>
+                        <td wicket:id="electionId"></td>
+                    </tr>
+                    <tr>
+                        <th>Party Principle:</th>
+                        <td wicket:id="partyprinciple" style="WORD-BREAK:BREAK-ALL"></td>
+                    </tr>
+                </table>
+
+                <ul>
+                    <p style="color: rgb(200, 205, 236)">Candidates of This Party</p>
+                    <li wicket:id="party_candidate_list">
+                        <a href="#"  wicket:id="party_candidate_link">
+                            <span wicket:id="name"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </wicket:extend>
+    </body>
+</html>

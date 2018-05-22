@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <wicket:head> 
+            <title>Update Party </title>
+        </wicket:head>
+    </head>
+    <body>
+        <wicket:extend>
+            <div id="edit_container">
+                <h4>Party Update Page</h4>
+                <form action="#" wicket:id="partyUpdateForm">
+                    <table align="center">
+                        <tr>
+                            <th>Party Title </th>
+                            <td><input type="text" wicket:id="title" placeholder="Enter title" autofocus="autofocus" maxlength="80" /></td>
+                            <td><input type="submit" wicket:id="getPartyInfo" value="GET" class="button"/></td>
+                        </tr>
+                        <tr>
+                            <th>Party Year </th>
+                            <td><input type="text" wicket:id="year" placeholder="Enter year" maxlength="4" /></td>
+                        </tr>
+                        <tr>
+                            <th>Party Leader </th>
+                            <td><input type="text" wicket:id="partyleader" placeholder="Enter partyleader" maxlength="80"  /></td>
+                        </tr>
+                        <tr>
+                            <th>Party Principle </th>
+                            <td><input type="text" wicket:id="partyPrinciples" placeholder="Enter partyPrinciples" maxlength="5000" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" wicket:id="update_party" value="UPDATE" class="button"/></td>
+                        </tr>
+                    </table>             
+                </form>       
+            </div>
+
+            <div id="feedbackPanel"><span wicket:id="updatePartyFeedback" /></div>
+
+        </wicket:extend>
+    </body>
+</html>

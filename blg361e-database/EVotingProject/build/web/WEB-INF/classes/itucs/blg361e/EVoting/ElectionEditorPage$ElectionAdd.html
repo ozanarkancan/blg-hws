@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>ElectionEditorPage$TabPanel1</title>
+    </head>
+    <body>
+        <wicket:panel>
+            <div id="edit_container">
+                <div wicket:id="containerForAdd">
+                    <form action="#" wicket:id="addElectionForm">
+                        <table>
+                            <tr>
+                                <th>Start Date of Election:</th>
+                                <td><input id="startDateOfElection" wicket:id="startDateOfElection" type="text"/></td>
+                                <wicket:link>
+                                    <th><img src="js/DateTimePicker/images2/cal.gif" onclick="javascript:NewCssCal('startDateOfElection', 'ddMMyyyy','dropdown',true,'24','','future')" style="cursor:pointer"/></th>
+                                </wicket:link>
+                            </tr>
+                            <tr>
+                                <th>Finish Date of Election:</th>
+                                <td><input id="finishDateOfElection" wicket:id="finishDateOfElection" type="text"/></td>
+                                <wicket:link>
+                                    <th><img src="js/DateTimePicker/images2/cal.gif" onclick="javascript:NewCssCal('finishDateOfElection', 'ddMMyyyy','dropdown',true,'24','','future')" style="cursor:pointer"/></th>
+                                </wicket:link>
+                            </tr>
+                            <tr>
+                                <th>Last Date of Adding Candidate:</th>
+                                <td><input id="lastDateOfAddingCandidate" wicket:id="lastDateOfAddingCandidate" type="text"/></td>
+                                <wicket:link>
+                                    <th><img src="js/DateTimePicker/images2/cal.gif" onclick="javascript:NewCssCal('lastDateOfAddingCandidate', 'ddMMyyyy','dropdown',true,'24','','future')" style="cursor:pointer"/></th>
+                                </wicket:link>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input value="Add" name="add" type="submit" wicket:id="addButton" class="button"/></td>
+                            </tr>
+                        </table>
+                        
+                        <div id="feedbackPanel"><span wicket:id="feedbackAddForm"/></div>
+                    </form>
+                </div>
+            </div>
+        </wicket:panel>
+    </body>
+</html>

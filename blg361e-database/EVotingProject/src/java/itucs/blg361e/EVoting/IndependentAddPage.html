@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <wicket:head> 
+            <title>Add Candidate</title>
+        </wicket:head>
+    </head>
+    <body>
+        <wicket:extend>
+            <div id="edit_container">
+                <form action="#" wicket:id="independent_add_form">
+                    <table align="center">
+                        <tr>
+                            <th>TC Number </th>
+                            <td><input type="text" wicket:id="tc_number" placeholder="Enter TC Number" autofocus="autofocus" /></td>
+                        </tr>    
+                        <tr>
+                            <th>Name </th>
+                            <td><input type="text" wicket:id="name" placeholder="Enter Name" /></td>
+                        </tr>
+                        <tr>
+                            <th>Username </th>
+                            <td><input type="text" wicket:id="user_name" placeholder="Enter Username" /></td>
+                        </tr>
+                        <tr>
+                            <th>Province Id </th>
+                            <td><input type="text" wicket:id="province_id" placeholder="Enter Province Id" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>                        
+                            <td><input type="submit" wicket:id="add_independent" value="ADD" class ="button"/></td>
+                        </tr>
+                    </table>             
+                </form>       
+            </div>
+
+            <div id="feedbackPanel"><span wicket:id="add_independent_feedback" /></div>
+
+        </wicket:extend>
+    </body>
+</html>

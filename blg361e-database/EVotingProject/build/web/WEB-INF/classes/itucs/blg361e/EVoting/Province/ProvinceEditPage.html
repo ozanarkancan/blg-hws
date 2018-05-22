@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Add Province Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <wicket:extend> 
+            <div id="edit_container">
+                <h4>Province Add Page</h4>
+                <form action="#" wicket:id="province_add_form">
+                    <table align="center">
+                        <tr>
+                            <th>Id :</th>
+                            <td><input wicket:id="id" placeholder="Enter ID" type="text" size="8"  maxlength="2" autofocus="autofocus"/></td>
+                        </tr>
+                        <tr>
+                            <th>Name :</th>
+                            <td><input wicket:id="name" type="text" placeholder="Enter Name"/></td>
+                        </tr>
+                        <tr>
+                            <th>Quota :</th>
+                            <td><input wicket:id="quota" type="text" size="8" placeholder="Enter Quota" maxlength="2"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input value="ADD" wicket:id="Save" class="button" name="save" type="submit"/>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="feedbackPanel"><span wicket:id="add_province_feedback"/></div>
+        </wicket:extend>
+    </body>
+</html>

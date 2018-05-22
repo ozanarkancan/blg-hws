@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.apache.org">
+    <head>
+        <wicket:head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <title>Login Page</title>
+        </wicket:head>
+    </head>
+    <body>
+        <wicket:extend>
+            <div id="login_container">
+                <form action="#" wicket:id="login_form">
+                    <table align="center">
+                        <tr>
+                            <td>Username </td>
+                            <td><input type="text" wicket:id="username" placeholder="Enter Username" autofocus="autofocus" /></td>
+                        </tr>
+
+                        <tr>
+                            <td>Password </td>
+                            <td><input type="password" wicket:id="password" placeholder="Enter Password" /></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" wicket:id="login" value="LOGIN" class="button" /></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="feedbackPanel"><span wicket:id="login_feedback"/></div>
+        </wicket:extend>
+    </body>
+</html>
