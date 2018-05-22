@@ -1,0 +1,17 @@
+﻿Build started 20.04.2011 14:07:58.
+     1>Project "C:\Users\BLG\Desktop\hw2_sln\hw2_sln\hw2_sln\hw2_sln.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\hw2_sln.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         hw2_sln.vcxproj -> C:\Users\BLG\Desktop\hw2_sln\hw2_sln\Debug\hw2_sln.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\hw2_sln.unsuccessfulbuild".
+         Touching "Debug\hw2_sln.lastbuildstate".
+     1>Done Building Project "C:\Users\BLG\Desktop\hw2_sln\hw2_sln\hw2_sln\hw2_sln.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

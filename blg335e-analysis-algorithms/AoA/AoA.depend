@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1367670481 source:c:\users\ozan\desktop\aoa\bigunsignedint.cpp
+	"BigUnsignedInt.h"
+	<iostream>
+
+1367670473 c:\users\ozan\desktop\aoa\bigunsignedint.h
+	<deque>
+	<string>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+
+1367664556 source:c:\users\ozan\desktop\aoa\main.cpp
+	<iostream>
+	"CombinatorialSolution.h"
+	"PascalTriangleSolution.h"
+	<stdlib.h>
+
+1367664556 c:\users\ozan\desktop\aoa\combinatorialsolution.h
+	"BigUnsignedInt.h"
+
+1367664556 c:\users\ozan\desktop\aoa\pascaltrianglesolution.h
+	"BigUnsignedInt.h"
+
+1367671042 source:c:\users\ozan\desktop\aoa\pascaltrianglesolution.cpp
+	"PascalTriangleSolution.h"
+	<iostream>
+	<fstream>
+	<sys/time.h>
+	<unistd.h>
+	<stdio.h>
+
+1367671037 source:c:\users\ozan\desktop\aoa\combinatorialsolution.cpp
+	"CombinatorialSolution.h"
+	<iostream>
+	<fstream>
+	<sys/time.h>
+	<unistd.h>
+	<stdio.h>
+

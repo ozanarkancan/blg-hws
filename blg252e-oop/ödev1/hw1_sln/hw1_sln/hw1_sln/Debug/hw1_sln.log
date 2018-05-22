@@ -1,0 +1,45 @@
+﻿Build started 15.03.2011 17:10:29.
+     1>Project "C:\Users\musty\Downloads\hw1_sln\hw1_sln\hw1_sln.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\hw1_sln.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ClassList.cpp Student.cpp TestClassList.cpp
+         TestClassList.cpp
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\student.h(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\student.h(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Student.cpp
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\student.h(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\student.h(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\student.cpp(12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\student.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         ClassList.cpp
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\student.h(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\student.h(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\classlist.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\classlist.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\musty\downloads\hw1_sln\hw1_sln\classlist.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\musty\Downloads\hw1_sln\Debug\hw1_sln.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hw1_sln.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\musty\Downloads\hw1_sln\Debug\hw1_sln.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\musty\Downloads\hw1_sln\Debug\hw1_sln.lib" /MACHINE:X86 Debug\ClassList.obj
+         Debug\Student.obj
+         Debug\TestClassList.obj
+         LINK : C:\Users\musty\Downloads\hw1_sln\Debug\hw1_sln.exe not found or not built by the last incremental link; performing full link
+         hw1_sln.vcxproj -> C:\Users\musty\Downloads\hw1_sln\Debug\hw1_sln.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\musty\Downloads\hw1_sln\Debug\hw1_sln.exe;#1" /manifest Debug\hw1_sln.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\hw1_sln.unsuccessfulbuild".
+         Touching "Debug\hw1_sln.lastbuildstate".
+     1>Done Building Project "C:\Users\musty\Downloads\hw1_sln\hw1_sln\hw1_sln.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.53
